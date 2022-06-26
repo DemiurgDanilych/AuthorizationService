@@ -11,7 +11,7 @@ public class UserRepository {
     public List<Authorities> getUserAuthorities(String user, String password) {
 
         Map<String, String> users = new HashMap<>();
-        users.put("<ИМЯ_ЮЗЕРА>", "<ПАРОЛЬ_ЮЗЕРА>");
+        users.put("111", "222");
         List<Authorities> authoritiesList = new ArrayList<>();
         authoritiesList.add(Authorities.DELETE);
         authoritiesList.add(Authorities.WRITE);
